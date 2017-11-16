@@ -1,0 +1,45 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="app.js" type="module"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>lite-builder - Hello World</title>
+</head>
+
+<body>
+  <div class="container vertical">
+    <h1>Hello World</h1>
+  </div>
+
+  <div class="container">
+
+    <hello-world header-image="assets/1.jpg">
+      <h1 slot="header">Custom title</h1>
+      <p slot="header">Custom baseline</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem vel soluta, in quisquam, dicta ut excepturi laudantium. Eveniet eos cum ut veniam commodi. Ipsum inventore alias, nulla, fuga aliquid vel.</p>
+      <img class="float-left" src="assets/2.jpg" >
+      <p>Porro, excepturi natus ea delectus! Expedita quas debitis inventore odit quam, quasi sed, eligendi, veniam tempore consectetur id eveniet nobis dicta explicabo excepturi? Soluta quis corporis officia deserunt dignissimos cumque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et libero laborum non rem, voluptatum sunt blanditiis repellat obcaecati eligendi, nesciunt, veritatis quaerat vero quos minus ut laudantium eos, adipisci ab!</p>
+      <span slot="footer">Custom footer</span>
+    </hello-world>
+
+    <hello-world title="Hello Custom Element!">
+      <p>Ipsum mollitia reiciendis quam eveniet! Voluptate aut atque aperiam ea nisi dignissimos facilis sint, eveniet, dolores, excepturi architecto placeat, assumenda enim minus eaque tenetur quia. Saepe natus animi, eum soluta!</p>
+      <img src="assets/2.jpg" >
+    </hello-world>
+
+    <hello-world header-image="assets/2.jpg">
+      <h1 slot="header">Custom title</h1>
+      <p slot="header">Custom baseline</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem vel soluta, in quisquam, dicta ut excepturi laudantium. Eveniet eos cum ut veniam commodi. Ipsum inventore alias, nulla, fuga aliquid vel.</p>
+      <img class="float-left" src="assets/1.jpg" >
+      <p>Porro, excepturi natus ea delectus! Expedita quas debitis inventore odit quam, quasi sed, eligendi, veniam tempore consectetur id eveniet nobis dicta explicabo excepturi? Soluta quis corporis officia deserunt dignissimos cumque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et libero laborum non rem, voluptatum sunt blanditiis repellat obcaecati eligendi, nesciunt, veritatis quaerat vero quos minus ut laudantium eos, adipisci ab!</p>
+      <span slot="footer">Custom footer</span>
+
+    </hello-world>
+
+
+  </div>
+</body>
+
+</html>

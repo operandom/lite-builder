@@ -1,0 +1,10 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut et les paramètres utilisateur.
+{
+  "editor.rulers": [
+    120,
+    80
+  ],
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "lit_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "builder/watch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-html": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/chokidar": "^1.7.3",
+    "@types/node": "^8.0.51",
+    "chokidar": "^1.7.0",
+    "mime-types": "^2.1.17",
+    "typescript": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
