@@ -11,3 +11,11 @@ An experimental starter-kit for web projects to use a minimal reloader and use t
 * ~~[WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)~~ [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource)
 
 Works on Chrome 62. Try on Firefox but didn't success to make it works.
+
+
+## Launch
+
+Just
+```bash
+node .
+```
