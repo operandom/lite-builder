@@ -10,7 +10,7 @@ An experimental starter-kit for web projects to use a minimal reloader and use t
 * [css custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 * ~~[WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)~~ [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource)
 
-Works on Chrome 62. Try on Firefox but didn't success to make it works.
+Works on Chrome 62. Tried on Firefox but didn't managed to make it work.
 
 
 ## Launch
