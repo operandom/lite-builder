@@ -50,7 +50,7 @@ export class HelloWorld extends HTMLElement {
     /** @type {HTMLLinkElement|null}  */
     const $template = document.querySelector(`link[href="${TEMPLATE}"]`);
 
-    TEMPLATE.forEach(node => $shadow.appendChild(node.cloneNode(true)));
+    $shadow.appendChild(TEMPLATE.cloneNode(true));
 
 
     const $style = document.createElement('link');
